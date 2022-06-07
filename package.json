@@ -22,10 +22,10 @@
   },
   "lint-staged": {
     "*.js": [
-        "npm run pretty",
-        "git add"
+      "npm run pretty",
+      "git add"
     ]
-},
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
